@@ -1,0 +1,7 @@
+D:\coding\C# apps\kl\bin\Debug\kl.exe.config
+D:\coding\C# apps\kl\bin\Debug\kl.exe
+D:\coding\C# apps\kl\bin\Debug\kl.pdb
+D:\coding\C# apps\kl\obj\Debug\kl.csproj.AssemblyReference.cache
+D:\coding\C# apps\kl\obj\Debug\kl.csproj.CoreCompileInputs.cache
+D:\coding\C# apps\kl\obj\Debug\kl.exe
+D:\coding\C# apps\kl\obj\Debug\kl.pdb
