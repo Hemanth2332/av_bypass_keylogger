@@ -22,7 +22,7 @@ namespace kl
                 case 20:                     
                     capsState = !capsState;
                     return $"[CapsLock: {(capsState ? "ON" : "OFF")}]";
-
+                    
                 case (int)ConsoleKey.Backspace:
                     return "[backspace]";
                 case (int)ConsoleKey.Tab:
@@ -42,14 +42,17 @@ namespace kl
                 case (int)ConsoleKey.DownArrow:
                     return "[down_arrow]";
 
-                                default:
-                    if (vKey >= 65 && vKey <= 90)                     {
-                        if (capsState ^ shiftState)                             return ((char)vKey).ToString();                         else
-                            return ((char)(vKey + 32)).ToString();                     }
-                                        else if (vKey >= 48 && vKey <= 57)                     {
+                default:
+                    if (vKey >= 65 && vKey <= 90){
+                        if (capsState ^ shiftState)                             
+                            return ((char)vKey).ToString();
+                        else
+                            return ((char)(vKey + 32)).ToString();                     
+                    }
+                    else if (vKey >= 48 && vKey <= 57){
                         if (shiftState)
                         {
-                                                        if (vKey == 48) return ")";
+                            if (vKey == 48) return ")";
                             if (vKey == 49) return "!";
                             if (vKey == 50) return "@";
                             if (vKey == 51) return "#";
